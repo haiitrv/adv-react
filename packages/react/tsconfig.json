@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    // "target": "ES2020",
+    "allowSyntheticDefaultImports": true,
+    "module": "ES2020",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "declaration": true,
+    "moduleResolution": "node",
+    "jsx": "react",
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "lib"]
+}
