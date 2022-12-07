@@ -1,0 +1,16 @@
+{
+  "name": "@ds.e/foundation",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "yarn build -w"
+  },
+  "resolutions": {
+    "@types/react": "^15.0.16"
+  }
+}

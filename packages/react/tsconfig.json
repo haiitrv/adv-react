@@ -1,17 +1,19 @@
 {
-  "compilerOptions": {
-    // "target": "ES2020",
-    "allowSyntheticDefaultImports": true,
-    "module": "ES2020",
-    "noImplicitAny": true,
-    "strictNullChecks": true,
-    "noImplicitReturns": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "declaration": true,
-    "moduleResolution": "node",
-    "jsx": "react",
-  },
-  "include": ["src"],
-  "exclude": ["node_modules", "lib"]
+    "compilerOptions": {
+        "outDir": "lib",
+        "module": "esnext",
+        "lib": ["DOM", "ESNext"],
+        "jsx": "react",
+        "allowSyntheticDefaultImports": true,
+        "target": "esnext",
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "declaration": true,
+        "moduleResolution": "node"
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "lib"]
 }
